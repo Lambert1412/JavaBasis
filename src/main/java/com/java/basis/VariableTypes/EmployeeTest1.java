@@ -18,5 +18,6 @@ public class EmployeeTest1 {
     public static void main(String[] args){
         salary = 10000;
         System.out.println(DEPARTMENT+"平均工资:"+salary);
+        System.out.println(EmployeeTest1.DEPARTMENT+"平均工资:"+EmployeeTest1.salary);
     }
 }
