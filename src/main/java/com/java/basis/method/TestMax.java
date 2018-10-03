@@ -1,12 +1,12 @@
 package com.java.basis.method;
 
-import static java.lang.Math.max;
 
 /**
  * @Author: Lambert
  * @Date: 2018/10/3 下午7:46
  * @Description:
  * 对象比较大小
+ * 比较对象大小
  */
 public class TestMax {
     public static void main(String[] args) {
