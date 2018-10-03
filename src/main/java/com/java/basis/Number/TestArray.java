@@ -4,7 +4,7 @@ package com.java.basis.Number;
  * @Author: Lambert
  * @Date: 2018/10/3 下午5:11
  * @Description:
- * 处理数组
+ * 创建数组
  * 下面的语句首先声明了一个数组变量 myList，
  * 接着创建了一个包含 10 个 double 类型元素的数组，并且把它的引用赋值给 myList 变量。
  */
