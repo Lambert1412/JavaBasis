@@ -16,3 +16,10 @@ git push origin :DEV_0.0.1
 # 直接删除远程分支
 git push origin –delete DEV_0.0.1
 ```
+
+```
+#git 强制覆盖本地code
+git fetch --all
+git reset --hard origin/DEV_0.0.1
+git pull
+```
