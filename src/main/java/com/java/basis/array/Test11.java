@@ -5,7 +5,7 @@ package com.java.basis.array;
  * @Date: 2018/10/22 下午10:21
  * @Description:
  * 腾讯课堂
- * 二维数组
+ * 
  */
 public class Test11 {
     public static void main(String[] args) {
