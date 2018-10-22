@@ -3,7 +3,8 @@ package com.java.basis.array;
 /**
  * @Author: Lambert
  * @Date: 2018/10/21 下午9:54
- * @Description: 二分法查询
+ * @Description:
+ * 查找数组
  * 查询输入数字
  */
 public class Test8 {
