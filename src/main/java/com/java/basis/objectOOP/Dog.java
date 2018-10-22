@@ -3,8 +3,7 @@ package com.java.basis.objectOOP;
 /**
  * @Author: Lambert
  * @Date: 2018/10/22 下午10:36
- * @Description:
- *腾讯课堂
+ * @Description: 腾讯课堂
  * 对象创建
  */
 public class Dog {
@@ -60,9 +59,16 @@ class TestDog {
          */
         System.out.println("狗的颜色是：" + dog.color + "狗的体重是:" + dog.weight + "狗的身高是：" + dog.height + "\t");
 
+        /**
+         * 多个对象
+         */
         Dog dog1 = new Dog();
         dog1.color = "黑色";
         System.out.println(dog1.color);
+        /**
+         * 方法调用
+         */
+        dog.protectHome();
 
     }
 }
