@@ -3,8 +3,7 @@ package com.java.basis.objectOOP;
 /**
  * @Author: Lambert
  * @Date: 2018/10/23 上午8:44
- * @Description:
- * private 封装
+ * @Description: private 封装
  * 使用private关键字完成属性私有化，这种属性只有本类能访问。
  */
 public class Student {
@@ -32,6 +31,10 @@ public class Student {
 }
 
 class TestStu {
+    /**
+     * public公共的所有类都能访问
+     * @param args
+     */
     public static void main(String[] args) {
         Student student = new Student();
         student.name = "我叫张三";
