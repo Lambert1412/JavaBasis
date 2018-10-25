@@ -3,9 +3,7 @@ package com.java.basis.objectOOP;
 /**
  * @Author: Lambert
  * @Date: 2018/10/23 上午8:59
- * @Description:
- *
- * 封装用法
+ * @Description: 封装用法
  */
 public class Student1 {
     /**
@@ -15,11 +13,11 @@ public class Student1 {
     /**
      * 性别
      */
-    char gender;
+    private char gender;
     /**
      * 年龄
      */
-    int age;
+    private int age;
 
     /**
      * 通过public私有方法属性值赋值
