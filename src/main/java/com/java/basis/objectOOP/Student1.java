@@ -4,6 +4,8 @@ package com.java.basis.objectOOP;
  * @Author: Lambert
  * @Date: 2018/10/23 上午8:59
  * @Description:
+ *
+ * 封装用法
  */
 public class Student1 {
     /**
@@ -19,15 +21,47 @@ public class Student1 {
      */
     int age;
 
-    public void setName(String a) {
-        name = a;
+    /**
+     * 通过public私有方法属性值赋值
+     *
+     * @param n
+     */
+    public void setName(String n) {
+        this.name = n;
     }
 
+    public void setGender(char g) {
+        this.gender = g;
+    }
+
+    public void setAge(int a) {
+        this.age = a;
+    }
+
+    /**
+     * 通过get方法获取值
+     *
+     * @return
+     */
+    public String getName() {
+        return this.name;
+    }
+
+    public char getGender() {
+        return this.gender;
+    }
+
+    public int getAge() {
+        return this.age;
+    }
 
     public void study() {
         System.out.println(name + "在学习");
     }
 
+    /**
+     * 介绍方法
+     */
     public void introduce() {
         System.out.println("我叫" + name + "性别" + gender + "年龄" + age);
     }
@@ -42,5 +76,17 @@ class TestStu1 {
     public static void main(String[] args) {
         Student1 student1 = new Student1();
         student1.setName("张三");
+        student1.setAge(1);
+        student1.setGender('男');
+
+        student1.introduce();
+
+        String name = student1.getName();
+        char gender = student1.getGender();
+        int age = student1.getAge();
+        System.out.println("名字" + name);
+        System.out.println("性别" + gender);
+        System.out.println("年龄" + age);
+
     }
 }
