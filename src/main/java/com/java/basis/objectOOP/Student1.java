@@ -22,18 +22,18 @@ public class Student1 {
     /**
      * 通过public私有方法属性值赋值
      *
-     * @param n
+     * @param name
      */
-    public void setName(String n) {
-        this.name = n;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public void setGender(char g) {
-        this.gender = g;
+    public void setGender(char gender) {
+        this.gender = gender;
     }
 
-    public void setAge(int a) {
-        this.age = a;
+    public void setAge(int age) {
+        this.age = age;
     }
 
     /**
