@@ -24,6 +24,7 @@ public class Student1 {
      *
      * @param name
      */
+    // this后的name是属性
     public void setName(String name) {
         this.name = name;
     }
