@@ -5,6 +5,12 @@ package com.java.basis.objectOOP;
  * @Date: 2018/10/28 上午8:18
  * @Description:
  * static语法使用
+ * 语法：public static 返回值（void） 方法名（数据类型1 变量1，数据类型2 变量2，….）{
+ * 	方法体
+ * 	[return 结果]
+ * }
+ *
+ * Static修饰在方法上就是类方法。
  */
 public class User {
     String username;
