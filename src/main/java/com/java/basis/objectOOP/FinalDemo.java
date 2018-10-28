@@ -11,7 +11,7 @@ package com.java.basis.objectOOP;
  **/
 
 
-public class User1 {
+ class User1 {
     int username;
     int password;
 
@@ -35,7 +35,7 @@ class Emp extends User1 {
 //    }
 }
 
-class FinalDemo {
+public class FinalDemo {
     public static void main(String[] args) {
         Emp e = new Emp();
         e.login(1, 1);
