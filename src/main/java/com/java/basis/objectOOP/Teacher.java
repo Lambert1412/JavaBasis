@@ -32,7 +32,7 @@ class TestTeacher {
         System.out.printf("\n" + "-----------------" + "\n");
         //不建议使用
         Teacher teacher = new Teacher();
-        teacher.name="小明";
+        teacher.name = "小明";
         teacher.teach();
     }
 }
