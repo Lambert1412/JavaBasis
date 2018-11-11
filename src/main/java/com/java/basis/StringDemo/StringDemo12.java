@@ -1,7 +1,6 @@
 package com.java.basis.StringDemo;
 
 
-import java.util.Scanner;
 
 /**
  * @program: basis
