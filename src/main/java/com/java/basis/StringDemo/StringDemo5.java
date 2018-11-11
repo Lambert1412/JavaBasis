@@ -10,12 +10,12 @@ package com.java.basis.StringDemo;
 public class StringDemo5 {
     public static void main(String[] args) {
         String str = "Helloword";
-//        指定索引处的值
+//        返回指定索引处的值
         char c = str.charAt(5);
         System.out.println(c);
 
 //        查找指定索引第一次出现（不存在返回-1）
-        int d=str.indexOf('l');
-        System.out.println(d);;
+        int d = str.indexOf('l');
+        System.out.println(d);
     }
 }
