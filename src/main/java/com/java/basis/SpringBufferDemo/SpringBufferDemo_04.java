@@ -17,5 +17,15 @@ public class SpringBufferDemo_04 {
         System.out.println(stringBuffer);
         stringBuffer.insert(2,"kkk");
         System.out.println(stringBuffer);
+        stringBuffer.insert(3,new char[]{'a','b','c','d','e','f'});
+        System.out.println(stringBuffer);
+
+        System.out.println("------------------------------------");
+        StringBuffer stringBuffer1 =new StringBuffer("hello");
+        //数组选择插入
+        char [] d={'1','2','3','4'};
+//        stringBuffer1.insert(index,str,offset,len)
+        stringBuffer1.insert(3,d,2,2);
+        System.out.println(stringBuffer1);
     }
 }
