@@ -9,7 +9,7 @@ import java.util.Date;
  * @description:
  * @author: Mr.LI
  * @create: 2018-11-17 19:27
- *
+ * <p>
  * 字符串与时间相互转换
  **/
 
@@ -32,11 +32,10 @@ public class DateDemo12 {
         try {
             Date date1 = simpleDateFormat1.parse(str2);
             System.out.println(date1);
-            long ms=date1.getTime();
+            long ms = date1.getTime();
             System.out.println(ms);
         } catch (ParseException e) {
             e.printStackTrace();
-
         }
     }
 }
