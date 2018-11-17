@@ -36,6 +36,7 @@ public class DateDemo12 {
             System.out.println(ms);
         } catch (ParseException e) {
             e.printStackTrace();
+
         }
     }
 }
