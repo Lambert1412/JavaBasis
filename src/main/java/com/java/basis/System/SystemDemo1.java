@@ -23,5 +23,13 @@ public class SystemDemo1 {
         long endTime=System.currentTimeMillis();
 
         System.out.println("程序的运行时间是"+(endTime - starTime)+"毫秒");
+
+        //手动执行垃圾回收
+        System.gc();
+        String path=System.getProperty("java.home");
+        System.out.println(path);
+        //推出jvm
+        System.exit(0);
+        System.out.println("111111");
     }
 }
