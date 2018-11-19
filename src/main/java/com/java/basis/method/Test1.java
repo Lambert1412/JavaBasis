@@ -16,6 +16,8 @@ public class Test1 {
             System.out.println("两个值相等");
         }
         System.out.println(result + "大");
+
+        compareNum1(63, 45);
     }
 
     /**
@@ -34,5 +36,18 @@ public class Test1 {
             result = b;
         }
         return result;
+    }
+
+    /**
+     * 无返回值调用
+     */
+    public static void compareNum1(int a, int b) {
+        if (a > b) {
+            System.out.println(a + "大");
+        } else if (a < b) {
+            System.out.println(b + "大");
+        } else {
+            System.out.println("相等");
+        }
     }
 }
