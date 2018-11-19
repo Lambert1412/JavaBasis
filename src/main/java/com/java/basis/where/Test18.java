@@ -6,6 +6,7 @@ package com.java.basis.where;
  * @author: Mr.LI
  * @create: 2018-11-19 13:49
  * 打印1-100偶数
+ * for循环
  **/
 
 public class Test18 {
