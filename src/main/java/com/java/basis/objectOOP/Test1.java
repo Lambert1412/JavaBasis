@@ -21,7 +21,13 @@ public class Test1 {
      * @return
      */
     public static int compareNum(int a, int b) {
-        return a>b?a:b;
+        int result = 0;
+        if (a > b) {
+            return a;
+        } else if (a < b) {
+            return b;
+        }
+        return result;
     }
 
     /**
