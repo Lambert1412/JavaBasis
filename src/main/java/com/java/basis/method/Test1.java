@@ -9,9 +9,12 @@ package com.java.basis.method;
  */
 public class Test1 {
     public static void main(String[] args) {
-        int a = 90;
-        int b = 30;
+        int a = 60;
+        int b = 90;
         int result = compareNum(a, b);
+        if (result == 0) {
+            System.out.println("两个值相等");
+        }
         System.out.println(result + "大");
     }
 
