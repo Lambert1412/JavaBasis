@@ -6,7 +6,7 @@ package com.java.basis.objectOOP;
  */
 public class Test3 {
     public static void main(String[] args) {
-        int result = compareNum(33, 34, 32);
+        int result = compareNum(37, 37, 36);
         if (result == 0) {
             System.out.println("两个数相等");
         } else {
@@ -36,6 +36,6 @@ public class Test3 {
      */
     public static int compareNum(int a, int b, int c) {
         //如果a和b比c大返回ab否则返回c
-        return compareNum(a,b)>c?compareNum(a,b):c;
+        return compareNum(a, b) > c ? compareNum(a, b) : c;
     }
 }
