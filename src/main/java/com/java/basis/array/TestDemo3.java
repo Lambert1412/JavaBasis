@@ -15,6 +15,8 @@ public class TestDemo3 {
         int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
         int maxVal = maxVelue(arr);
         System.out.println(maxVal);
+        int minVal = minVelue(arr);
+        System.out.println(minVal);
     }
 
     public static int maxVelue(int[] array) {
@@ -27,6 +29,16 @@ public class TestDemo3 {
                 result = array[i];
             }
 
+        }
+        return result;
+    }
+
+    public static int minVelue(int[] array) {
+        int result = array[0];
+        for (int i = 1; i < array.length; i++) {
+            if (result > array[i]) {
+                result = array[i];
+            }
         }
         return result;
     }
